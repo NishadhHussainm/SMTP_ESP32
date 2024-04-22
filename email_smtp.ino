@@ -1,12 +1,12 @@
 #include "ESP32_MailClient.h"
 #include <WiFi.h>
 
-const char* ssid = "Iqoo 9 pro";
-const char* password = "nishadhhussain";
+const char* ssid = "your-ssid";
+const char* password = "your-password";
 
-#define emailSenderAccount "nishm200012@gmail.com"
-#define emailSenderPassword "xxpr rmhi zwry uwkb"
-#define emailRecipient "annalakshmisuriyanarayan@gmail.com"
+#define emailSenderAccount "your-email@gmail.com"
+#define emailSenderPassword "your-app-specific-password"
+#define emailRecipient "recipient-email@gmail.com"
 #define smtpServer "smtp.gmail.com"
 #define smtpServerPort 465
 #define emailSubject "ESP32 Testing Email"
