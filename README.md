@@ -3,7 +3,7 @@
 This project demonstrates how to use the ESP32 microcontroller to send an email using the [ESP32_MailClient](https://github.com/mobizt/ESP32-Mail-Client) library. The code connects to a WiFi network, sets up SMTP credentials, and sends an HTML email from the ESP32 to a specified recipient.
 
 ## Requirements
-
+- To setup [SMTP](https://www.gmass.co/blog/gmail-smtp/)
 - ESP32 board
 - Arduino IDE or a similar IDE with ESP32 support
 - [ESP32_MailClient library](https://github.com/mobizt/ESP32-Mail-Client)
